@@ -1,7 +1,27 @@
 @charset "UTF-8";
-
+/*Celular em modo retrato*/
+@media screen and (orientation: portrait)  {
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+    div#formulario > h1{
+        font-size: 1.8em;
+      }
+      div#formulario > p{
+        font-size: 1em;
+    }
+}
 /*Tablets*/
-@media screen and (min-width:769px) and (max-width: 992px) {
+@media screen and (min-width:769px) and (max-width: 992px)  {
     section#login{
         width: 80vw;
     }
