@@ -28,7 +28,8 @@ section#login{
     
     background-color: white;
     width: 70vw;
-    height: 95vh;
+    min-height: 80vh;
+    max-width: 95h;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
