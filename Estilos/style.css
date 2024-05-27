@@ -27,8 +27,8 @@ section#login{
     left: 50%;
     
     background-color: white;
-    width: 45vw;
-    height: 90vh;
+    width: 50vw;
+    height: 95vh;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
@@ -44,7 +44,7 @@ section#login > div#imagem{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 200px;
+    height: 15vh;
 }
 section#login > div#formulario{
     display: block;
